@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF481A3326943A8D00E51323 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF481A3226943A8D00E51323 /* AppDelegate.swift */; };
+		DF481A3526943A8D00E51323 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF481A3426943A8D00E51323 /* SceneDelegate.swift */; };
+		DF481A3726943A8D00E51323 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF481A3626943A8D00E51323 /* ViewController.swift */; };
+		DF481A3A26943A8D00E51323 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF481A3826943A8D00E51323 /* Main.storyboard */; };
+		DF481A3D26943A8D00E51323 /* EyeTracking.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DF481A3B26943A8D00E51323 /* EyeTracking.xcdatamodeld */; };
+		DF481A3F26943A8F00E51323 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF481A3E26943A8F00E51323 /* Assets.xcassets */; };
+		DF481A4226943A8F00E51323 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF481A4026943A8F00E51323 /* LaunchScreen.storyboard */; };
+		DF481A4D26943A8F00E51323 /* EyeTrackingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF481A4C26943A8F00E51323 /* EyeTrackingTests.swift */; };
+		DF481A5826943A8F00E51323 /* EyeTrackingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF481A5726943A8F00E51323 /* EyeTrackingUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DF481A4926943A8F00E51323 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF481A2726943A8D00E51323 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF481A2E26943A8D00E51323;
+			remoteInfo = EyeTracking;
+		};
+		DF481A5426943A8F00E51323 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF481A2726943A8D00E51323 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF481A2E26943A8D00E51323;
+			remoteInfo = EyeTracking;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DF481A2F26943A8D00E51323 /* EyeTracking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EyeTracking.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF481A3226943A8D00E51323 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DF481A3426943A8D00E51323 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DF481A3626943A8D00E51323 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DF481A3926943A8D00E51323 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DF481A3C26943A8D00E51323 /* EyeTracking.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EyeTracking.xcdatamodel; sourceTree = "<group>"; };
+		DF481A3E26943A8F00E51323 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF481A4126943A8F00E51323 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DF481A4326943A8F00E51323 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF481A4826943A8F00E51323 /* EyeTrackingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EyeTrackingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF481A4C26943A8F00E51323 /* EyeTrackingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EyeTrackingTests.swift; sourceTree = "<group>"; };
+		DF481A4E26943A8F00E51323 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF481A5326943A8F00E51323 /* EyeTrackingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EyeTrackingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF481A5726943A8F00E51323 /* EyeTrackingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EyeTrackingUITests.swift; sourceTree = "<group>"; };
+		DF481A5926943A8F00E51323 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF481A2C26943A8D00E51323 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF481A4526943A8F00E51323 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF481A5026943A8F00E51323 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF481A2626943A8D00E51323 = {
+			isa = PBXGroup;
+			children = (
+				DF481A3126943A8D00E51323 /* EyeTracking */,
+				DF481A4B26943A8F00E51323 /* EyeTrackingTests */,
+				DF481A5626943A8F00E51323 /* EyeTrackingUITests */,
+				DF481A3026943A8D00E51323 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF481A3026943A8D00E51323 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF481A2F26943A8D00E51323 /* EyeTracking.app */,
+				DF481A4826943A8F00E51323 /* EyeTrackingTests.xctest */,
+				DF481A5326943A8F00E51323 /* EyeTrackingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF481A3126943A8D00E51323 /* EyeTracking */ = {
+			isa = PBXGroup;
+			children = (
+				DF481A3226943A8D00E51323 /* AppDelegate.swift */,
+				DF481A3426943A8D00E51323 /* SceneDelegate.swift */,
+				DF481A3626943A8D00E51323 /* ViewController.swift */,
+				DF481A3826943A8D00E51323 /* Main.storyboard */,
+				DF481A3E26943A8F00E51323 /* Assets.xcassets */,
+				DF481A4026943A8F00E51323 /* LaunchScreen.storyboard */,
+				DF481A4326943A8F00E51323 /* Info.plist */,
+				DF481A3B26943A8D00E51323 /* EyeTracking.xcdatamodeld */,
+			);
+			path = EyeTracking;
+			sourceTree = "<group>";
+		};
+		DF481A4B26943A8F00E51323 /* EyeTrackingTests */ = {
+			isa = PBXGroup;
+			children = (
+				DF481A4C26943A8F00E51323 /* EyeTrackingTests.swift */,
+				DF481A4E26943A8F00E51323 /* Info.plist */,
+			);
+			path = EyeTrackingTests;
+			sourceTree = "<group>";
+		};
+		DF481A5626943A8F00E51323 /* EyeTrackingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DF481A5726943A8F00E51323 /* EyeTrackingUITests.swift */,
+				DF481A5926943A8F00E51323 /* Info.plist */,
+			);
+			path = EyeTrackingUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF481A2E26943A8D00E51323 /* EyeTracking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF481A5C26943A8F00E51323 /* Build configuration list for PBXNativeTarget "EyeTracking" */;
+			buildPhases = (
+				DF481A2B26943A8D00E51323 /* Sources */,
+				DF481A2C26943A8D00E51323 /* Frameworks */,
+				DF481A2D26943A8D00E51323 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EyeTracking;
+			productName = EyeTracking;
+			productReference = DF481A2F26943A8D00E51323 /* EyeTracking.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DF481A4726943A8F00E51323 /* EyeTrackingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF481A5F26943A8F00E51323 /* Build configuration list for PBXNativeTarget "EyeTrackingTests" */;
+			buildPhases = (
+				DF481A4426943A8F00E51323 /* Sources */,
+				DF481A4526943A8F00E51323 /* Frameworks */,
+				DF481A4626943A8F00E51323 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF481A4A26943A8F00E51323 /* PBXTargetDependency */,
+			);
+			name = EyeTrackingTests;
+			productName = EyeTrackingTests;
+			productReference = DF481A4826943A8F00E51323 /* EyeTrackingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DF481A5226943A8F00E51323 /* EyeTrackingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF481A6226943A8F00E51323 /* Build configuration list for PBXNativeTarget "EyeTrackingUITests" */;
+			buildPhases = (
+				DF481A4F26943A8F00E51323 /* Sources */,
+				DF481A5026943A8F00E51323 /* Frameworks */,
+				DF481A5126943A8F00E51323 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF481A5526943A8F00E51323 /* PBXTargetDependency */,
+			);
+			name = EyeTrackingUITests;
+			productName = EyeTrackingUITests;
+			productReference = DF481A5326943A8F00E51323 /* EyeTrackingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF481A2726943A8D00E51323 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					DF481A2E26943A8D00E51323 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					DF481A4726943A8F00E51323 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = DF481A2E26943A8D00E51323;
+					};
+					DF481A5226943A8F00E51323 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = DF481A2E26943A8D00E51323;
+					};
+				};
+			};
+			buildConfigurationList = DF481A2A26943A8D00E51323 /* Build configuration list for PBXProject "EyeTracking" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF481A2626943A8D00E51323;
+			productRefGroup = DF481A3026943A8D00E51323 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF481A2E26943A8D00E51323 /* EyeTracking */,
+				DF481A4726943A8F00E51323 /* EyeTrackingTests */,
+				DF481A5226943A8F00E51323 /* EyeTrackingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF481A2D26943A8D00E51323 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF481A4226943A8F00E51323 /* LaunchScreen.storyboard in Resources */,
+				DF481A3F26943A8F00E51323 /* Assets.xcassets in Resources */,
+				DF481A3A26943A8D00E51323 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF481A4626943A8F00E51323 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF481A5126943A8F00E51323 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF481A2B26943A8D00E51323 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF481A3726943A8D00E51323 /* ViewController.swift in Sources */,
+				DF481A3326943A8D00E51323 /* AppDelegate.swift in Sources */,
+				DF481A3D26943A8D00E51323 /* EyeTracking.xcdatamodeld in Sources */,
+				DF481A3526943A8D00E51323 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF481A4426943A8F00E51323 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF481A4D26943A8F00E51323 /* EyeTrackingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF481A4F26943A8F00E51323 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF481A5826943A8F00E51323 /* EyeTrackingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DF481A4A26943A8F00E51323 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF481A2E26943A8D00E51323 /* EyeTracking */;
+			targetProxy = DF481A4926943A8F00E51323 /* PBXContainerItemProxy */;
+		};
+		DF481A5526943A8F00E51323 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF481A2E26943A8D00E51323 /* EyeTracking */;
+			targetProxy = DF481A5426943A8F00E51323 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DF481A3826943A8D00E51323 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF481A3926943A8D00E51323 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DF481A4026943A8F00E51323 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF481A4126943A8F00E51323 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF481A5A26943A8F00E51323 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DF481A5B26943A8F00E51323 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF481A5D26943A8F00E51323 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8CDS4RQQHP;
+				INFOPLIST_FILE = EyeTracking/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Aplaice.EyeTracking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DF481A5E26943A8F00E51323 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8CDS4RQQHP;
+				INFOPLIST_FILE = EyeTracking/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Aplaice.EyeTracking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DF481A6026943A8F00E51323 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8CDS4RQQHP;
+				INFOPLIST_FILE = EyeTrackingTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Aplaice.EyeTrackingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EyeTracking.app/EyeTracking";
+			};
+			name = Debug;
+		};
+		DF481A6126943A8F00E51323 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8CDS4RQQHP;
+				INFOPLIST_FILE = EyeTrackingTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Aplaice.EyeTrackingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EyeTracking.app/EyeTracking";
+			};
+			name = Release;
+		};
+		DF481A6326943A8F00E51323 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8CDS4RQQHP;
+				INFOPLIST_FILE = EyeTrackingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Aplaice.EyeTrackingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EyeTracking;
+			};
+			name = Debug;
+		};
+		DF481A6426943A8F00E51323 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8CDS4RQQHP;
+				INFOPLIST_FILE = EyeTrackingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Aplaice.EyeTrackingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EyeTracking;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF481A2A26943A8D00E51323 /* Build configuration list for PBXProject "EyeTracking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF481A5A26943A8F00E51323 /* Debug */,
+				DF481A5B26943A8F00E51323 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF481A5C26943A8F00E51323 /* Build configuration list for PBXNativeTarget "EyeTracking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF481A5D26943A8F00E51323 /* Debug */,
+				DF481A5E26943A8F00E51323 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF481A5F26943A8F00E51323 /* Build configuration list for PBXNativeTarget "EyeTrackingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF481A6026943A8F00E51323 /* Debug */,
+				DF481A6126943A8F00E51323 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF481A6226943A8F00E51323 /* Build configuration list for PBXNativeTarget "EyeTrackingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF481A6326943A8F00E51323 /* Debug */,
+				DF481A6426943A8F00E51323 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DF481A3B26943A8D00E51323 /* EyeTracking.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DF481A3C26943A8D00E51323 /* EyeTracking.xcdatamodel */,
+			);
+			currentVersion = DF481A3C26943A8D00E51323 /* EyeTracking.xcdatamodel */;
+			path = EyeTracking.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DF481A2726943A8D00E51323 /* Project object */;
+}
